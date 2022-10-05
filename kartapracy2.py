@@ -20,3 +20,11 @@
 #         print("tak")
 # else:
 #         print("nie")
+
+# zad 4
+LIMIT = 20
+waga = int(input("ile to wazy?"))
+if waga<=LIMIT:
+       print("a jedz stad")
+else:
+       print ("STOP CZARNUCHU")
