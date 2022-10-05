@@ -23,3 +23,22 @@
 # b = int(input())
 # c = int(input())
 # print (a*b*c)
+
+
+# zad 5
+
+# a = int(input())
+# b = int(input())
+# print(2*(a+b)/5)
+
+# zad 6
+
+# brutto = int(input())
+# print (brutto/1.23)
+
+
+# zad 7
+
+# a = int(input())
+# b = int(input())
+# print (a % b)
