@@ -22,9 +22,50 @@
 #         print("nie")
 
 # zad 4
-LIMIT = 20
-waga = int(input("ile to wazy?"))
-if waga<=LIMIT:
-       print("a jedz stad")
-else:
-       print ("STOP CZARNUCHU")
+# LIMIT = 20
+# waga = int(input("ile to wazy?"))
+# if waga<=LIMIT:
+#        print("a jedz stad")
+# else:
+#        print ("STOP CZARNUCHU")
+
+
+# x = int(input())
+# y = int(input())
+
+# if x > y:
+#     print("TAK")
+# else:
+#     print("NIE")
+
+# zad 5
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# if a < c < b or b < c < a:
+#    type("TAK")
+# else: 
+#    type("NIE")
+
+
+# zad 6
+
+# a = int(input())
+# p = int(input())
+# if (a^p - a) % p == 0:
+#     print("TAK, SPEŁNIA MTF")
+# else:
+#     print("NIE, NIE SPEŁNIA MTF")
+
+# zad 7
+
+# p = int(input())
+# k = int(input())
+# s = int(input())
+
+# if p + 3*s >= k:
+#     print("TAK, PŁAZ PRZESKOCZY")
+# else:
+#     print("NIE, ŻABA NIE DA RADY")
