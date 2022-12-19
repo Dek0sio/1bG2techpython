@@ -46,60 +46,74 @@ def zadanie3():
     liczba_dwucyfrowa = 0
     ilosc = 0
 
-    for i in range(99, 1, -1):
-        if i % 7 == 0:
-            liczba_dwucyfrowa = i
-            break
+ for i in range(99, 1, -1):
+      if i % 7 == 0:
+        liczba_dwucyfrowa = i
+        break
 
-    for liczba in range(1000, 10000):
-        if liczba % liczba_dwucyfrowa == 0:
-            ilosc += 1
+for liczba in range(1000, 10000):
+    if liczba % liczba_dwucyfrowa == 0:
+        ilosc += 1
 
     print(ilosc)
 
+#     ilosc = 0
+# for i in range(10,100):
+#     cd = i // 10
+#     cj = i % 10
+#     if cd >= 2*cj:
+#         ilosc = ilosc + 1
+# print(ilosc)
 
 # zadanie3()
+    # zadanie4
+# ilosc = 0
+# for i in range(10,100):
+#     cd = i // 10
+#     cj = i % 10
+#     if cd >= 2*cj:
+#         ilosc += 1
+# print(ilosc)
 
+# def zadanie5():
+#     ilosc = 0
+#     suma = 0
 
-def zadanie5():
-    ilosc = 0
-    suma = 0
+#     for liczba in range(100, 1000):
+#         cs = liczba // 100
+#         cd = (liczba % 100) // 10
+#         cj = liczba % 10
 
-    for liczba in range(100, 1000):
-        cs = liczba // 100
-        cd = (liczba % 100) // 10
-        cj = liczba % 10
+#         if cs > cd + cj:
+#             ilosc += 1
+#             suma += liczba
 
-        if cs > cd + cj:
-            ilosc += 1
-            suma += liczba
-
-    print(ilosc, suma)
+#     print(ilosc, suma)
 
 
 # zadanie5()
 
 
 def zadanie6():
-    n = int(input())
-    suma = 0
+n = int(input())
+suma = 0
 
-    for liczba in range(10, 100):
-        if n == 0:
-            break
+for liczba in range(10, 100):
+    if n == 0:
+        break
 
-        if liczba % 19 == 0:
-            suma += liczba
-            n -= 1
-            print(liczba)
+if liczba % 19 == 0:
+     suma += liczba
+     n -= 1
+     print(liczba)
 
-    if n > 0:
+if n > 0:
         print(f"Nie udalo mi się znaleźć {n} liczb!")
 
     print(f"Suma: {suma}")
 
 
-# zadanie6()
+zadanie6()
 
 
 def zadanie7():
