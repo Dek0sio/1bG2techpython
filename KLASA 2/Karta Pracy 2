@@ -1,0 +1,7 @@
+# karta pracy 2
+
+# zad 1
+def oblicz_czy_podzielna_przez_3():
+    a = int(input())
+    return a % 3 == 0
+print(oblicz_czy_podzielna_przez_3())
