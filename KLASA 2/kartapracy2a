@@ -1,0 +1,31 @@
+#zad 1
+# x,y = int(input()), int(input())
+# if (x+y) % 2==0:
+#     print("true")
+# else:
+#     print("false")
+
+#zad 2
+# import math
+# x,y = int(input()), int(input())
+# if (x + y) / 2 > math.sqrt(x*y):
+#     print("true")
+# else:
+#     print("false")
+#zad 3
+# k,l,m = int(input()) , int(input()) , int(input())
+# if k == l or k == m or l == m:
+#  print("tak")
+# else:
+#  print("nie")
+ 
+ # zad 4
+#  a,b,c,d = int(input()), int(input()),int(input()), int(inpu())
+#  print(min(a,b,c,d))
+
+# zad 5
+# a, b, c = int(input()), int(input()), int(input())
+# if a<(a+b) and a<(b-c) and b<(a+c) and b<(a-c) and c<(a+b) and c<(a-b):
+#   print("tak")
+# else:
+#   print("nie")
