@@ -9,6 +9,18 @@ def suma_i_dzielniki(liczba):
 liczba_dwucyfrowa = 23
 print(suma_i_dzielniki(liczba_dwucyfrowa))
 
+#zad 3
+cyfra_dziesiatek = None
+
+for d in range(10):
+    liczba = int("8" + str(d))
+
+    if 99 < liczba < 1000 and liczba % 2 == 0 and liczba % 3 == 0 and liczba % 9 != 0:
+        cyfra_dziesiatek = d
+        break
+
+print("Cyfra dziesiątek:", cyfra_dziesiatek)
+
 #zad 5
 def czy_tworzy_trojkat(a, b, c):
     if a + b > c and a + c > b and b + c > a:
