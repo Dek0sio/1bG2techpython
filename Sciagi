@@ -13,13 +13,15 @@ print(suma_i_dzielniki(liczba_dwucyfrowa))
 cyfra_dziesiatek = None
 
 for d in range(10):
-    liczba = int("8" + str(d))
-
-    if 99 < liczba < 1000 and liczba % 2 == 0 and liczba % 3 == 0 and liczba % 9 != 0:
+    # Tworzymy liczbę trzycyfrową
+    liczba = int(f"__{d}")
+    
+    # Sprawdzamy warunki
+    if liczba % 6 == 0 and liczba % 9 != 0:
         cyfra_dziesiatek = d
-        break
+        break  # Przerywamy pętlę, gdy znajdziemy odpowiednią cyfrę
 
-print("Cyfra dziesiątek:", cyfra_dziesiatek)
+print(f"Cyfra dziesiątek: {cyfra_dziesiatek}")
 
 #zad 5
 def czy_tworzy_trojkat(a, b, c):
